@@ -2,8 +2,10 @@ package java_coding_string;
 
 import java.util.Scanner;
 public class DifferenceInStrings {
-
+	// Program to find the difference between two strings 
+	
 	public char findTheDifference(String s, String t) {
+		
 		int result = 0;
 		for(int i=0;i<s.length();i++) {
 			result ^= s.charAt(i);

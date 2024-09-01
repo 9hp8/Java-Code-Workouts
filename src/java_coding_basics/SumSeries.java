@@ -15,7 +15,7 @@ public class SumSeries {
 		System.out.println("Enter the number");
 		int num = scan.nextInt();
 		System.out.println(SumSeries.seriesSum(num));
-		
+		 
 	}
 
 }
